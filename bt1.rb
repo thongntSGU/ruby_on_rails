@@ -7,7 +7,9 @@ loop {
 	begin
 		print "Nhap a[#{i}]:"
 		temp = Integer(gets.chomp)
+		#Dung khi nhap -1
 		break if temp == -1
+		#So tu nhien luon lon hon hoac bang 0
 		raise if temp < 0
 		a[i] = temp
 	rescue
@@ -15,8 +17,9 @@ loop {
 		retry
 	end	
 	i+=1
+	#Dung khi nhap 99 so
+	break if i == 99
 }
-
 puts "#{a}"
 #Cach 1 - Sap xep mang tang dan va lay vi tri 0
 # if a.length >= 1
