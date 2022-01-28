@@ -13,3 +13,7 @@ def find_2num_equal_target(array, target)
 end
 
 find_2num_equal_target(numbers, target_sum)
+
+# Code e viết rất gọn, giải thuật ok
+# Khi e sử dụng biến complement_numbers để chứa mảng con và dùng include? cũng ok, nhưng vd sau này mảng có hàng triệu phần tử mà e sử dụng include? 
+# như vậy sẽ chạy hơi lâu nhé
