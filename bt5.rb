@@ -46,3 +46,10 @@ end
 
 create_Random_Arrays
 increase_Sub_Arrays
+
+# Code e viết gọn, tách hàm ra để xử lý là một điểm cộng
+# A có vài góp ý nhỏ:
+# 1. num_Arrays -> theo chuẩn của ruby thì tên biến bình thường là chữ thường hết nhé e. num_arrays. Tên hàm cũng như vậy: increase_Sub_Arrays
+# 2. range của e là từ 1 -> 99, nhưng a vẫn nhập được 0 và 100
+# 3. Giữa các toán tử, e nên có dấu cách để dễ đọc nhé. VD: @num_Arrays.length-1 -> @num_Arrays.length - 1
+# 4. Trong ruby bình thường cuối hàm e kg cần return nhé. Vd: return Integer(n) ->  Integer(n)
