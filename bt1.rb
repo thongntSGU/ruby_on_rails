@@ -1,5 +1,5 @@
-i = 0
-a = []
+i = 0 # biến nên đặt tên có ý nghĩa hơn
+a = [] # biến nên đặt tên có ý nghĩa hơn, biến chứa nhiều phần tử nên là số nhiều
 
 puts "Nhap -1 de dung"
 loop {
@@ -40,3 +40,6 @@ if a.length >= 1
 elsif
 	puts "Khong co gia tri nho nhat"
 end
+	
+# Chương trình e viết gọn gàng, biết sử dụng rescue, raise là một điểm cộng. xử lý được trường hợp vừa s
+# Tuy nhiên, cần đặt tên biến có ý nghĩa hơn
